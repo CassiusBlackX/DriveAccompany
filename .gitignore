@@ -1,0 +1,30 @@
+# Ignore vscode & jetbrains project configure files
+**/.idea/
+**/.vscode/
+**/.conda/
+
+# ignore python cache files
+**/__pycache__/
+
+#ignore datasets
+**/dataset*/
+**/videos/
+**/*.mp4
+**/*.wav
+**/*.m4a
+**/*.mp3
+**/*.flac
+
+# ignore c++ build files
+**/build/
+
+# ignore weights
+# **/*.onnx  # commented this line to push onnx weight file to remote
+**/*.pt
+backend/model/
+
+# ignore frontend
+**/node_modules/
+**/dist/
+
+*.log

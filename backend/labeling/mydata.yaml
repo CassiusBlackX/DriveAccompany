@@ -1,0 +1,12 @@
+path: /home/cassius/mechanic/software-engineering-516/backend/labeling/dataset1
+train: images/train
+val: images/val
+
+names:
+  0: closed_eyes
+  1: open_eyes
+  2: closed_mouth
+  3: open_mouth
+  4: side_face
+  5: phone
+nc: 6
